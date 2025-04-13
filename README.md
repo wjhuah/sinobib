@@ -2,103 +2,77 @@
     <div class="header">
         <h1>📚 Ancient Chinese Civilization and Manuscripts: Bibliographies in Western Languages</h1>
         <p>
-            <strong>Last Updated:</strong> April 5, 2025 (Civilization) | February 7, 2025 (Manuscripts)<br>
-            <a href="https://github.com/wjhuah/sinobib" target="_blank">Repository</a>
+            <strong>Compiled by Paul R. Goldin 📜 | Last Updated:</strong> April 5, 2025 (Civilization)<br>
         </p>
     </div>
     <div class="section">
-        <h2>🌏 Project Overview</h2>
-        <p>This repository hosts two meticulously curated bibliographies focused on <strong>Ancient Chinese Civilization</strong> and <strong>Ancient Chinese Manuscripts</strong> in Western languages. Designed for scholars and researchers, the resources cover materials from the Neolithic era through the pre-Buddhist period (flexible definition) and related manuscript studies.</p>
-    </div>
-    <div class="section">
-        <h2>📖 Key Bibliographies</h2>
-        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px;">
-            <h3>1. 🏺 Ancient Chinese Civilization Bibliography</h3>
-            <ul>
-                <li><strong>Title:</strong> Ancient Chinese Civilization: Bibliography of Materials in Western Languages</li>
-                <li><strong>Compiler:</strong> Paul R. Goldin</li>
-                <li><strong>Entries:</strong> Over 15,750</li>
-                <li><strong>Scope:</strong> Neolithic to pre-Buddhist eras (c. 10,000 BCE–200 CE).</li>
-                <li><strong>Exclusions:</strong> 
-                    <ul>
-                        <li>Early Stone Age cultures, Neolithic cultures outside the Yellow/Yangzi River Valleys (e.g., prehistoric Taiwan).</li>
-                        <li>Book reviews, encyclopedia articles, newsletters, exhibition catalogs, and non-scholarly works.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 20px;">
-            <h3>2. 📜 Ancient Chinese Manuscripts Bibliography</h3>
-            <ul>
-                <li><strong>Title:</strong> Ancient Chinese Manuscripts: Bibliography of Materials in Western Languages</li>
-                <li><strong>Compiler:</strong> Paul R. Goldin</li>
-                <li><strong>Search:</strong> Support for author/title search (available in the <a href="https://www.sinobib.com" target="_blank">web version</a>).</li>
-            </ul>
-        </div>
-    </div>
-    <div class="section">
-        <h2>📝 Content & Formatting Guidelines</h2>
-        <h3>🔍 Scope & Inclusions</h3>
-        <ul>
-            <li>Included: Monographs, journal articles, and edited volumes on ancient Chinese civilization/manuscripts (Western languages only).</li>
-            <li>Concision: 
-                <ul>
-                    <li>Single-author anthologies listed once by volume title (no duplicate entries for revised/reprinted articles).</li>
-                    <li>Original publication dates of translated/reissued works noted in brackets (e.g., <code>[1950]</code>).</li>
-                </ul>
-            </li>
-        </ul>
-        <h3>✨ Format Standards</h3>
-        <ul>
-            <li>Capitalization: Chinese non-proper nouns (e.g., <code>qi 氣</code>) are not capitalized; titles follow Western formatting rules.</li>
-            <li>Alphabetization: 
-                <ul>
-                    <li>Romanized Chinese names sorted by syllable (e.g., <code>Qizhi</code> comes before <code>Qiong</code>).</li>
-                    <li>Surnames with prefixes (e.g., "von", "van") follow the author’s preferred order.</li>
-                </ul>
-            </li>
-            <li>Author Details: Birth/death years included for authors born before 1900 (when verifiable, e.g., <code>Liang Qichao (1873–1929)</code>).</li>
-        </ul>
+        <h2>🌍 Project Overview</h2>
+        <p>
+            This bibliography aims to be inclusive from the Neolithic through the pre-Buddhist era and contains more than 15,750 entries.  
+            <span class="highlight">(</span>The definition of “pre-Buddhist” is inevitably fuzzy<span class="highlight">)</span>.  
+            Earlier Stone Age cultures, as well as Neolithic cultures from regions beyond the Yellow and Yangzi River Valleys and areas, such as prehistoric Taiwan, are not comprehensively covered.  
+            Please do not hesitate to inform the compiler of errors or omissions, which are inevitable in a project of this scope.
+        </p>
+        <p>
+            For the sake of concision, anthologies of papers by a single author are listed once, under title of the volume.  
+            <span class="highlight">(</span>The original bibliographical information of any articles revised or reprinted in such anthologies is omitted, as are the original details of articles that were later expanded into or incorporated within a book by the same author<span class="highlight">)</span>.  
+            Book reviews, articles in encyclopedias and newsletters, exhibition catalogues, and unscholarly works are not normally included.  
+            The original publication date of a work that was subsequently translated or re-issued sometimes appears at the end of a citation in brackets <span class="highlight">[1995]</span>.
+        </p>
+        <p>
+            <strong>Other notes:</strong> Capitalization and italicization are standardized silently, and I do not capitalize Chinese terms that are not proper names <span class="highlight">(</span>such as <em>qi 氣</em><span class="highlight">)</span>.  
+            Romanized Chinese names are alphabetized by syllable <span class="highlight">(</span>for example, <em>Qizhi</em> comes before <em>Qiong</em><span class="highlight">)</span>.  
+            Surnames containing “von,” “van,” “de,” etc. are alphabetized according to the author’s preference <span class="highlight">(</span>to the best of my knowledge<span class="highlight">)</span>.  
+            Birth and death years are provided for authors born before 1900, whenever I can ascertain them.
+        </p>
     </div>
     <div class="section">
         <h2>🙏 Acknowledgments</h2>
-        <p>Huge thanks to all students and colleagues who have contributed over the years! 🎓✨</p>
-        <p><em>Note: Russian-language resources are currently underrepresented—systematic inclusion is a work in progress.</em></p>
+        <p>
+            Huge thanks to all students and colleagues who have helped over the years! 🎓✨  
+            I am aware that many relevant titles in Russian are missing—one day this may be systematically rectified. 🌍
+        </p>
     </div>
     <div class="section">
         <h2>👥 Project Team</h2>
         <div>
             <h3>🌟 Leadership</h3>
             <ul>
-                <li>Paul R. Goldin (University of Pennsylvania)</li>
-                <li>Liang Cai (University of Notre Dame)</li>
+                <li>Paul R. Goldin <span class="highlight">(</span>University of Pennsylvania<span class="highlight">)</span></li>
+                <li>Liang Cai <span class="highlight">(</span>University of Notre Dame<span class="highlight">)</span></li>
             </ul>
         </div>
         <div style="margin-top: 20px;">
             <h3>🛠️ Technical Support</h3>
             <ul>
-                <li>Brisny Rodriguez Flores (University of Notre Dame)</li>
-                <li>Wenjie Hua (Wuhan University)</li>
+                <li>Brisny Rodriguez Flores <span class="highlight">(</span>University of Notre Dame<span class="highlight">)</span></li>
+                <li>Wenjie Hua <span class="highlight">(</span>Wuhan University<span class="highlight">)</span></li>
             </ul>
         </div>
     </div>
     <div class="section">
         <h2>🤝 Contribute to Sinobib</h2>
-        <p>Help us grow! Submit missing works or suggestions via our <a href="https://docs.google.com/forms/d/10T5sxXOfdBT3WyNwgKCL0MV9Fh8qvgmGbCLtaKqB3LM/viewform?hl=zh-cn" target="_blank">Submission Form</a>.</p>
-        <p><em>All submissions are reviewed by Dr. Paul R. Goldin & Dr. Liang Cai.</em></p>
+        <p>
+            Let's improve Sinobib together! 🌱 Submit missing works or suggestions via our  
+            <a href="https://docs.google.com/forms/d/10T5sxXOfdBT3WyNwgKCL0MV9Fh8qvgmGbCLtaKqB3LM/viewform?hl=zh-cn" target="_blank">
+                📩 Submission Form
+            </a>.
+        </p>
+        <p>
+            <em>All submissions are reviewed by Dr. Paul R. Goldin & Dr. Liang Cai.</em>
+        </p>
         <ul>
-            <li>Civilization Bibliography: ~15,887 titles (as of April 2025).</li>
-            <li>Full PDF: <a href="https://www.academia.edu/37490636/" target="_blank">Download Here</a></li>
+            <li>Civilization Bibliography: ~15,887 titles <span class="highlight">(</span>as of April 2025<span class="highlight">)</span>.</li>
+            <li>Full PDF: <a href="https://www.academia.edu/37490636/" target="_blank">📄 Download Here</a></li>
         </ul>
     </div>
-    <div class="contact">
-        <h3>📧 Contact & Support</h3>
-        <p>Report errors or omissions: <a href="mailto:wjhuah@gmail.com">wjhuah@gmail.com</a></p>
-        <p>Admin Login (Internal Use): <a href="https://your-admin-login.com" target="_blank">https://your-admin-login.com</a></p>
-    </div>
     <div class="footer">
-        <p>🌏 <a href="https://www.sinobib.com" target="_blank">Live Web Version</a> | ⭐️ <a href="https://github.com/wjhuah/sinobib" target="_blank">Star the Repo</a></p>
-        <p>This project is a labor of love for sinology. Let’s build the most comprehensive resource for ancient Chinese studies together!</p>
+        <p>
+            🌐 <a href="https://www.sinobib.com" target="_blank">Live Web Version</a> |  
+            ⭐️ <a href="https://github.com/wjhuah/sinobib" target="_blank">Star the Repo on GitHub</a>
+        </p>
+        <p>
+            This project is a labor of love for sinology. Let’s build the most comprehensive resource for ancient Chinese studies together! 🌏📚
+        </p>
     </div>
 </body>
-</html>
