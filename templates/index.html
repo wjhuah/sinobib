@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinobib</title>
+    <link rel="icon" type="image/x-icon" href="/static/sinobib.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* 定义 */
+        :root {
+            --primary-color: #800020;
+            --secondary-color: #f8e6d1;
+            --accent-color: #5a0017;
+        }
+
+        /* 全局 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Serif', 'Noto Serif SC', serif;
+        }
+
+        body {
+            line-height: 1.8;
+            color: #444;
+            background: linear-gradient(180deg, #fff 0%, #f8f4f0 100%);
+            min-height: 100vh;
+        }
+
+        /* 头 */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* goldin */
+        .compiler-info {
+            text-align: center;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        /* imfo */
+        .project-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+            padding: 2rem;
+            background: rgba(248, 230, 209, 0.2);
+            border-radius: 12px;
+            backdrop-filter: blur(8px);
+        }
+
+        .info-section {
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .info-section:hover {
+            transform: translateY(-5px);
+        }
+
+        /* form */
+        .search-form {
+            max-width: 800px;
+            margin: 3rem auto;
+            position: relative;
+            display: flex;
+        }
+
+        .search-form input {
+            padding: 1.2rem 2rem;
+            border: 2px solid var(--primary-color);
+            border-radius: 50px 0 0 50px;
+            font-size: 1.1rem;
+            flex: 1;
+            height: auto;
+        }
+
+        .search-form input:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(128, 0, 32, 0.2);
+        }
+
+        .search-form button {
+            border-radius: 0 50px 50px 0;
+            background: var(--primary-color);
+            transition: all 0.3s ease;
+            color: white;
+            padding: 0 2rem;
+            border: none;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-form button:hover {
+            background: var(--accent-color);
+            transform: scale(1.05);
+        }
+
+        .search-form button:active {
+            transform: scale(0.95);
+        }
+
+        /* result */
+        .result-item {
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--primary-color);
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .result-item:hover {
+            transform: translateX(10px);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* but */
+        .copy-button {
+            background: var(--primary-color);
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            display: flex;
+            color: white;
+            align-items: center;
+            gap: 0.8rem;
+            margin: 1rem auto;
+            display: block;
+        }
+
+        /* foot */
+        .footer-note {
+            border-top: 2px dashed var(--primary-color);
+            padding: 2rem 0;
+            margin: 2rem;
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        /* res */
+        .search-results {
+            margin: 2rem;
+        }
+
+        /* nores */
+        .no-results {
+            margin: 2rem;
+        }
+
+        /* media */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            .search-form {
+                flex-direction: column;
+            }
+            .search-form input {
+                border-radius: 50px;
+            }
+            .search-form button {
+                border-radius: 50px;
+                margin-top: 1rem;
+                width: 100%;
+                padding: 1.2rem 2rem;
+            }
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            animation: slideIn 0.3s ease;
+            z-index: 1000;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* 超链接样式 */
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头 -->
+    <header class="header">
+        <h1>Ancient Chinese Manuscripts: Bibliography of Materials in Western Languages</h1>
+    </header>
+
+    <!-- 主体 -->
+    <main class="container">
+        <!-- info -->
+        <div class="compiler-info">
+            <h2>Compiled by: Paul R. Goldin</h2>
+            <h3>Last Updated: February 7, 2025 (regularly updated)</h3>
+        </div>
+
+        <!-- form -->
+        <form class="search-form" method="POST" action="/search">
+            <input 
+                type="text" 
+                name="keyword" 
+                placeholder="Search by author or title" 
+                required
+            >
+            <button type="submit">Search</button>
+        </form>
+
+        <!--result -->
+        {% if results %}
+        <div class="search-results">
+            <button class="copy-button" onclick="copyResults()">
+                Copy All to the Clipboard
+            </button>
+            <h3>Results for "{{ keyword }}":</h3>
+            <p><strong>Found {{ results|length }} results</strong></p>
+            
+            {% for entry in results %}
+            <div class="result-item" data-clipboard-text="{{ entry|e }}" onclick="copySingleResult(this)">
+                {{ entry }}
+            </div>
+            {% endfor %}
+        </div>
+        {% elif keyword %}
+        <p class="no-results">No results found. Try other keywords (e.g., 'Goldin').</p>
+        {% endif %}
+
+        <!-- cla -->
+        <div class="project-info">
+            <div class="info-section">
+                <h3>Project Leadership</h3>
+                <p><a href="https://ealc.sas.upenn.edu/people/paul-r-goldin">Paul R. Goldin</a> (University of Pennsylvania)<br><a href="https://history.nd.edu/people/liang-cai/">Liang Cai</a> (University of Notre Dame)</p>
+            </div>
+            <div class="info-section">
+                <h3>Technical Support</h3>
+                <p><a href="#">Brisny Rodriguez Flores</a> (University of Notre Dame)<br><a href="#">Wenjie Hua</a> (Wuhan University)</p>
+            </div>
+        </div>
+
+        <!-- foot -->
+        <div class="footer-note">
+            <p>
+                Note: This bibliography contains approximately <strong>{{ entry_count }}</strong> titles. For the sake of concision, anthologies of papers by a single author are listed only once, under title of the volume. (The original bibliographical information of any articles revised or reprinted in such anthologies is omitted, as are the original details of articles that were later expanded into or incorporated within a book by the same author.) Book reviews, articles in encyclopedias and newsletters, exhibition catalogues, and works for popular audiences are not normally included.
+            </p>
+            <p style="text-align: center; font-size: 1.25rem;">
+                <a href="mailto:wjhuah@gmail.com" style="color: #800020;">Email Us</a>
+            </p>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer style="text-align: right; margin: 2rem; font-size: 0.875rem;">
+        <a href="/admin/login" style="color: var(--primary-color); text-decoration: underline;">Admin Login</a>
+    </footer>    
+
+    <!-- java -->
+    <script>
+        function copyResults() {
+            const entries = Array.from(document.querySelectorAll('.result-item'))
+               .map(item => item.textContent.trim());
+            
+            navigator.clipboard.writeText(entries.join('\n\n'))
+               .then(() => {
+                    const toast = document.createElement('div');
+                    toast.className = 'toast';
+                    toast.textContent = `Copied ${entries.length} results!`;
+                    document.body.appendChild(toast);
+                    setTimeout(() => toast.remove(), 2000);
+                })
+               .catch(err => console.error('Copy failed:', err));
+        }
+
+        function copySingleResult(item) {
+            const text = item.textContent.trim();
+            navigator.clipboard.writeText(text)
+               .then(() => {
+                    const toast = document.createElement('div');
+                    toast.className = 'toast';
+                    toast.textContent = 'Copied 1 result!';
+                    document.body.appendChild(toast);
+                    setTimeout(() => toast.remove(), 2000);
+                })
+               .catch(err => console.error('Copy single result failed:', err));
+        }
+    </script>
+</body>
+
+</html>
+    
