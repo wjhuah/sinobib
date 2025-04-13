@@ -45,7 +45,7 @@
         <div style="margin-top: 20px;">
             <h3>🛠️ Technical Support</h3>
             <ul>
-                <li>Peichao Qin <span class="highlight">(</span>Cambridge University<span class="highlight">)</span></li>
+                <li>Peichao Qin <span class="highlight">(</span>University of Cambridge<span class="highlight">)</span></li>
                 <li>Brisny Rodriguez Flores <span class="highlight">(</span>University of Notre Dame<span class="highlight">)</span></li>
                 <li>Wenjie Hua <span class="highlight">(</span>Wuhan University<span class="highlight">)</span></li>
             </ul>
