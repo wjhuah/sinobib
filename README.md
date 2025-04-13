@@ -2,7 +2,7 @@
     <div class="header">
         <h1>📚 Ancient Chinese Civilization and Manuscripts: Bibliographies in Western Languages</h1>
         <p>
-            <strong>Paul R. Goldin | Last Updated:</strong> April 5, 2025 (Civilization) 📜 <br>
+            <strong>Paul R. Goldin | Last Updated:</strong> April 5, 2025 📜 <br>
         </p>
     </div>
     <div class="section">
@@ -20,7 +20,7 @@
             The original publication date of a work that was subsequently translated or re-issued sometimes appears at the end of a citation in brackets <span class="highlight">[1995]</span>.
         </p>
         <p>
-            <strong>Other notes:</strong> Capitalization and italicization are standardized silently, and I do not capitalize Chinese terms that are not proper names <span class="highlight">(</span>such as <em>qi 氣</em><span class="highlight">)</span>.  
+            📜 <strong>Other notes:</strong> Capitalization and italicization are standardized silently, and I do not capitalize Chinese terms that are not proper names <span class="highlight">(</span>such as <em>qi 氣</em><span class="highlight">)</span>.  
             Romanized Chinese names are alphabetized by syllable <span class="highlight">(</span>for example, <em>Qizhi</em> comes before <em>Qiong</em><span class="highlight">)</span>.  
             Surnames containing “von,” “van,” “de,” etc. are alphabetized according to the author’s preference <span class="highlight">(</span>to the best of my knowledge<span class="highlight">)</span>.  
             Birth and death years are provided for authors born before 1900, whenever I can ascertain them.
