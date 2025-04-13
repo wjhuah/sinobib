@@ -1,12 +1,12 @@
 <body>
     <div class="header">
-        <h1>📚 Ancient Chinese Civilization and Manuscripts: Bibliographies in Western Languages</h1>
+        <h1>Ancient Chinese Civilization and Manuscripts: Bibliographies in Western Languages</h1>
         <p>
             <strong>Paul R. Goldin | Last Updated:</strong> April 5, 2025 📜 <br>
         </p>
     </div>
     <div class="section">
-        <h2>🌍 Project Overview</h2>
+        <h2>📚 Project Overview</h2>
         <p>
             📜 This bibliography aims to be inclusive from the Neolithic through the pre-Buddhist era and contains more than 15,750 entries.  
             <span class="highlight">(</span>The definition of “pre-Buddhist” is inevitably fuzzy<span class="highlight">)</span>.  
