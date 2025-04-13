@@ -2,7 +2,7 @@
     <div class="header">
         <h1>📚 Ancient Chinese Civilization and Manuscripts: Bibliographies in Western Languages</h1>
         <p>
-            <strong>Paul R. Goldin | Last Updated:</strong> April 5, 2025 (Civilization)📜 <br>
+            <strong>Paul R. Goldin | Last Updated:</strong> April 5, 2025 (Civilization) 📜 <br>
         </p>
     </div>
     <div class="section">
@@ -14,9 +14,9 @@
             Please do not hesitate to inform the compiler of errors or omissions, which are inevitable in a project of this scope.
         </p>
         <p>
-            📜 For the sake of concision, anthologies of papers by a single author are listed once, under title of the volume.  
+            📜 For the sake of concision, anthologies of papers by a single author are listed once, under the title of the volume.  
             <span class="highlight">(</span>The original bibliographical information of any articles revised or reprinted in such anthologies is omitted, as are the original details of articles that were later expanded into or incorporated within a book by the same author<span class="highlight">)</span>.  
-            Book reviews, articles in encyclopedias and newsletters, exhibition catalogues, and unscholarly works are not normally included.  
+            Book reviews, articles in encyclopedias and newsletters, exhibition catalogs, and unscholarly works are not normally included.  
             The original publication date of a work that was subsequently translated or re-issued sometimes appears at the end of a citation in brackets <span class="highlight">[1995]</span>.
         </p>
         <p>
@@ -27,10 +27,10 @@
         </p>
     </div>
     <div class="section">
-        <h2>🙏 Prof. Goldin's Acknowledgments</h2>
+        <h2> 🎓 Paul R. Goldin's Acknowledgments</h2>
         <p>
-            Huge thanks to all students and colleagues who have helped over the years! 🎓✨  
-            I am aware that many relevant titles in Russian are missing—one day this may be systematically rectified. 🌍
+            Huge thanks to all students and colleagues who have helped over the years!
+            I am aware that many relevant titles in Russian are missing—one day this may be systematically rectified.
         </p>
     </div>
     <div class="section">
@@ -62,13 +62,11 @@
         <p>
             <em>All submissions are reviewed by Dr. Paul R. Goldin & Dr. Liang Cai.</em>
         </p>
-        <ul>
-            <li>Civilization Bibliography: ~15,887 titles <span class="highlight">(</span>as of April 2025<span class="highlight">)</span>.</li>
-            <li>Full PDF: <a href="https://www.academia.edu/37490636/" target="_blank">📄 Download Here</a></li>
         </ul>
     </div>
     <div class="footer">
         <p>
+            📑 <a href="https://www.academia.edu/37490636/" target="_blank">📄 Full PDF Download</a> |  
             🌐 <a href="https://www.sinobib.com" target="_blank">Live Web Version</a> |  
             ⭐️ <a href="https://github.com/wjhuah/sinobib" target="_blank">Star the Repo on GitHub</a>
         </p>
