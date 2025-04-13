@@ -2,19 +2,19 @@
     <div class="header">
         <h1>📚 Ancient Chinese Civilization and Manuscripts: Bibliographies in Western Languages</h1>
         <p>
-            <strong>Compiled by Paul R. Goldin 📜 | Last Updated:</strong> April 5, 2025 (Civilization)<br>
+            <strong>Paul R. Goldin | Last Updated:</strong> April 5, 2025 (Civilization)📜 <br>
         </p>
     </div>
     <div class="section">
         <h2>🌍 Project Overview</h2>
         <p>
-            This bibliography aims to be inclusive from the Neolithic through the pre-Buddhist era and contains more than 15,750 entries.  
+            📜 This bibliography aims to be inclusive from the Neolithic through the pre-Buddhist era and contains more than 15,750 entries.  
             <span class="highlight">(</span>The definition of “pre-Buddhist” is inevitably fuzzy<span class="highlight">)</span>.  
             Earlier Stone Age cultures, as well as Neolithic cultures from regions beyond the Yellow and Yangzi River Valleys and areas, such as prehistoric Taiwan, are not comprehensively covered.  
             Please do not hesitate to inform the compiler of errors or omissions, which are inevitable in a project of this scope.
         </p>
         <p>
-            For the sake of concision, anthologies of papers by a single author are listed once, under title of the volume.  
+            📜 For the sake of concision, anthologies of papers by a single author are listed once, under title of the volume.  
             <span class="highlight">(</span>The original bibliographical information of any articles revised or reprinted in such anthologies is omitted, as are the original details of articles that were later expanded into or incorporated within a book by the same author<span class="highlight">)</span>.  
             Book reviews, articles in encyclopedias and newsletters, exhibition catalogues, and unscholarly works are not normally included.  
             The original publication date of a work that was subsequently translated or re-issued sometimes appears at the end of a citation in brackets <span class="highlight">[1995]</span>.
@@ -27,7 +27,7 @@
         </p>
     </div>
     <div class="section">
-        <h2>🙏 Acknowledgments</h2>
+        <h2>🙏 Prof. Goldin's Acknowledgments</h2>
         <p>
             Huge thanks to all students and colleagues who have helped over the years! 🎓✨  
             I am aware that many relevant titles in Russian are missing—one day this may be systematically rectified. 🌍
@@ -45,6 +45,7 @@
         <div style="margin-top: 20px;">
             <h3>🛠️ Technical Support</h3>
             <ul>
+                <li>Peichao Qin <span class="highlight">(</span>Cambridge University<span class="highlight">)</span></li>
                 <li>Brisny Rodriguez Flores <span class="highlight">(</span>University of Notre Dame<span class="highlight">)</span></li>
                 <li>Wenjie Hua <span class="highlight">(</span>Wuhan University<span class="highlight">)</span></li>
             </ul>
