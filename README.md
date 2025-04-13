@@ -74,15 +74,12 @@
             <a href="https://github.com/wjhuah/sinobib" target="_blank">Repository</a>
         </p>
     </div>
-
     <div class="section">
         <h2>🌏 Project Overview</h2>
         <p>This repository hosts two meticulously curated bibliographies focused on <strong>Ancient Chinese Civilization</strong> and <strong>Ancient Chinese Manuscripts</strong> in Western languages. Designed for scholars and researchers, the resources cover materials from the Neolithic era through the pre-Buddhist period (flexible definition) and related manuscript studies.</p>
     </div>
-
     <div class="section">
         <h2>📖 Key Bibliographies</h2>
-        
         <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px;">
             <h3>1. 🏺 Ancient Chinese Civilization Bibliography</h3>
             <ul>
@@ -98,7 +95,6 @@
                 </li>
             </ul>
         </div>
-
         <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 20px;">
             <h3>2. 📜 Ancient Chinese Manuscripts Bibliography</h3>
             <ul>
@@ -108,10 +104,8 @@
             </ul>
         </div>
     </div>
-
     <div class="section">
         <h2>📝 Content & Formatting Guidelines</h2>
-        
         <h3>🔍 Scope & Inclusions</h3>
         <ul>
             <li>Included: Monographs, journal articles, and edited volumes on ancient Chinese civilization/manuscripts (Western languages only).</li>
@@ -122,7 +116,6 @@
                 </ul>
             </li>
         </ul>
-
         <h3>✨ Format Standards</h3>
         <ul>
             <li>Capitalization: Chinese non-proper nouns (e.g., <code>qi 氣</code>) are not capitalized; titles follow Western formatting rules.</li>
@@ -135,16 +128,13 @@
             <li>Author Details: Birth/death years included for authors born before 1900 (when verifiable, e.g., <code>Liang Qichao (1873–1929)</code>).</li>
         </ul>
     </div>
-
     <div class="section">
         <h2>🙏 Acknowledgments</h2>
         <p>Huge thanks to all students and colleagues who have contributed over the years! 🎓✨</p>
         <p><em>Note: Russian-language resources are currently underrepresented—systematic inclusion is a work in progress.</em></p>
     </div>
-
     <div class="section">
         <h2>👥 Project Team</h2>
-        
         <div>
             <h3>🌟 Leadership</h3>
             <ul>
@@ -152,7 +142,6 @@
                 <li>Liang Cai (University of Notre Dame)</li>
             </ul>
         </div>
-
         <div style="margin-top: 20px;">
             <h3>🛠️ Technical Support</h3>
             <ul>
@@ -161,7 +150,6 @@
             </ul>
         </div>
     </div>
-
     <div class="section">
         <h2>🤝 Contribute to Sinobib</h2>
         <p>Help us grow! Submit missing works or suggestions via our <a href="https://docs.google.com/forms/d/10T5sxXOfdBT3WyNwgKCL0MV9Fh8qvgmGbCLtaKqB3LM/viewform?hl=zh-cn" target="_blank">Submission Form</a>.</p>
@@ -171,13 +159,11 @@
             <li>Full PDF: <a href="https://www.academia.edu/37490636/" target="_blank">Download Here</a></li>
         </ul>
     </div>
-
     <div class="contact">
         <h3>📧 Contact & Support</h3>
         <p>Report errors or omissions: <a href="mailto:wjhuah@gmail.com">wjhuah@gmail.com</a></p>
         <p>Admin Login (Internal Use): <a href="https://your-admin-login.com" target="_blank">https://your-admin-login.com</a></p>
     </div>
-
     <div class="footer">
         <p>🌏 <a href="https://www.sinobib.com" target="_blank">Live Web Version</a> | ⭐️ <a href="https://github.com/wjhuah/sinobib" target="_blank">Star the Repo</a></p>
         <p>This project is a labor of love for sinology. Let’s build the most comprehensive resource for ancient Chinese studies together!</p>
